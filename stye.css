@@ -84,4 +84,19 @@ body{
     height: 100vh;
 
 }
+.container-img{
+display:flex;
+justify-content:center;
+align-items:center;
+height:70px;
+width:70px;
+border-radius:50%;
+background-color: #ffffff;
+}
+.card-layanan{
+height:313px;
+padding:40px;
+background:linear-gradient (160deg,var(--pr-hijau),rgb(0, 0, 4));
+border-radius:5px;
+}
 /* end style */
