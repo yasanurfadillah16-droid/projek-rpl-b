@@ -1,42 +1,44 @@
 :root{
-    --pr-hijau: #048853;
+    --pr-hijau:#048853;
 }
+
+
 body{
-    font-family:"Poppins";
-    background-color: #e5e5e5;
+    font-family: "Poppins";
+    background-color: #E5E5E5 ;
 }
+
 .navbar{
     z-index: 3;
 }
 *{
     z-index: 2;
 }
-.accent-benner{
+.accent-banner{
     z-index: 1;
-
-    }
-.navbar-brand{
- font-size: 20px;
- font-weight: 700;
-
 }
+
 /* navbar style */
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+}
 .nav-link.active{
     font-size: 16px;
-    font-weight:700;
+    font-weight: 700;
 }
 .nav-link{
-
     font-size: 16px;
     font-weight: 400;
 }
-.btn-Masuk{
+.btn-masuk{
     width: 133px;
     height: 40px;
-    background-color: aliceblue;
+    background-color: #fff;
     border: none;
+    font-size: 16px;
     font-weight: 700;
-    color: var(--pr-hijau)
+    color: var(--pr-hijau);
 }
 .btn-daftar{
     width: 133px;
@@ -44,13 +46,12 @@ body{
     background-color: transparent;
     border: none;
     font-size: 16px;
-    font-weight:400;
-    color:aliceblue;
-
+    font-weight: 400;
+    color:#fff;
 }
 /* navbar end */
 
-/* style hero */
+/* style hero  */
 #hero{
     background: linear-gradient(160deg, var(--pr-hijau), #000);
     height: 100vh;
@@ -58,45 +59,89 @@ body{
 .text-hero h1{
     font-size: 50px;
     font-weight: 700;
-    color:#fff;
+    color: #fff;
     line-height: 70px;
 }
+
 .text-hero p{
     font-size: 16px;
     font-weight: 400;
-    color: white;
+    color: #fff;
     line-height: 30px;
-    width: 85%;
+    width:75%;
 }
+
 .btn-lg{
     width: 237px;
     height: 70px;
     font-size: 16px;
     font-weight: 700;
-    background-color: white;
+    background-color: #fff;
     color: var(--pr-hijau);
-    border: none;
+    border:none;
 }
-/* end  */
+
+
+/* end style hero */
 
 /* layanan style */
 #our-service{
-    height: 100vh;
-
+    padding: 100px 0;
+    width: 100%;
 }
-.container-img{
-display:flex;
-justify-content:center;
-align-items:center;
-height:70px;
-width:70px;
-border-radius:50%;
-background-color: #ffffff;
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--pr-hijau);
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
 }
 .card-layanan{
-height:313px;
-padding:40px;
-background:linear-gradient (160deg,var(--pr-hijau),rgb(0, 0, 4));
-border-radius:5px;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    transition: all 0.1s ease-in;
 }
-/* end style */
+.container-img{
+    height: 70px;
+    width: 70px;
+    background-color: var(--pr-hijau);
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
+}
+.card-layanan h4{
+    font-size: 24px;
+    font-weight: 500;
+    color:var(--pr-hijau);
+    transition: all 0.1s ease-in;
+}
+.card-layanan p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#000;
+    transition: all 0.1s ease-in;
+}
+
+/* hover card */
+.card-layanan:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover .container-img{
+    background-color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover h4{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover p{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+/* end hover card */
+/* end layanan */
