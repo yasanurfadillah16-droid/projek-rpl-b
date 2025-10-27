@@ -172,7 +172,7 @@
               <li class="nav-item" role="presentation">
                 <button
                   class="btn-tab jual active"
-                  id="home-tab"
+                  id="jual-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#home-tab-pane"
                   type="button"
@@ -217,12 +217,12 @@
                 class="tab-pane fade show active"
                 id="home-tab-pane"
                 role="tabpanel"
-                aria-labelledby="home-tab"
+                aria-labelledby="jual-tab"
                 tabindex="0"
               >
                 <div class="input-group mb-3">
                   <button
-                    class="btn btn-outline-secondary dropdown-toggle"
+                    class="btn-search dropdown-toggle"
                     type="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -242,11 +242,30 @@
                       <a class="dropdown-item" href="#">Separated link</a>
                     </li>
                   </ul>
-                  <input
-                    type="text"
-                    class="form-control"
-                    aria-label="Text input with dropdown button"
-                  />
+                   <button
+                    class="btn btn-outline-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  <img src="image/akar-icons_money.png" height="20" width="22" alt=""> Range Harga
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </li>
+                  </ul>
+                  <input type="text" class="form-control" placeholder="Recipient’s username" aria-label="Recipient’s username" aria-describedby="button-addon2">
+                  <button class="btn-cari" type="button" id="button-addon2">Cari</button>
+                  </div>
                 </div>
               </div>
               <div

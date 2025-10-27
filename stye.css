@@ -191,4 +191,25 @@ color: #fff;
     font-weight: 400;
     transition: all 0.3s ease-in;
 }
+.input-group{
+     height: 88px;
+     background-color: rgba(255,255,255, 0.8);
+     border-radius:0 0 0 10px;
+}
+.btn-cari{
+    width: 135px;
+    height: 100%;
+    background-color:  var(--pr-hijau);
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.btn-search{
+    border:none ;
+    background-color: transparent;
+    color:  var(--pr-hijau);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+}
 /* end style temukan rumah */
