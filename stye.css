@@ -230,3 +230,22 @@ box-shadow: 1px 1px 5px 1px var(--pr-hijau);
 color:var(--pr-hijau);
 }
 /* end style temukan rumah */
+/* style rekomendasi rumah*/
+#rekomendasi{
+height:100vh;
+
+}
+.card-rex{
+height: 489px;
+width:380px;
+background-color:white;
+border-radius:5px;
+
+}
+.card-gbr{
+height:280px;
+
+
+
+}
+/* end style rekomendasi rumah */
