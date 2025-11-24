@@ -275,3 +275,56 @@ background-color: #fff;
 
 }
 /* end style rekomendasi rumah */
+
+
+/* style fitur*/
+.btn-lihat{
+border:none;
+background-color:var(--pr-hijau); 
+font-size:20px;
+font-weight: 500;
+color: #fff;
+width: 234px;
+border-radius: 3px;
+}
+.overlay-h5{
+font-size: 24px;
+font-weight: 500;
+color: #fff;
+
+}
+.overlay-h6{
+font-size: 24px;
+font-weight: 500;
+color: #fff;
+
+}
+.overlay-span{
+font-size: 14px;
+font-weight: 400;
+color: #fff;
+}
+.btn-lr{
+border:none;
+background-color:var(--pr-hijau);
+border-radius:3px;
+width:150px;
+height:45px;
+font-size:10px;
+font-weight: 500;
+} 
+.card-fitur{
+width:340px ;
+height:480px ;
+
+
+}
+.overlay{
+background:rgba(0,0,0, 0.5);
+opacity:0;
+}   
+.card-fitur .overlay:hover{
+opacity:1;
+transition:all ease-in-out .3s;
+}
+/* end style fitur*/
